@@ -19,6 +19,9 @@ public class First{
     public static void addSiteToHistory(String url) {
         browserhistory.addLast(url);
 }
+public static void printBrowsingHistory() {
+    System.out.println("browserhistory : "+browserhistory);
+}    
 
     
 public static void main(String []args){
