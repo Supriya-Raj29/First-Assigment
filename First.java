@@ -4,7 +4,12 @@ import java.util.*;
 public class First{
     public static LinkedList<String> browserhistory = new LinkedList<String>();
     
-    
+    public static Boolean isBrowsingHistoryEmpty() {
+        if(browserhistory.size()>0){
+            return false;
+        }
+        return true;
+    }
     
 public static void main(String []args){
       Scanner scan = new Scanner(System.in);
