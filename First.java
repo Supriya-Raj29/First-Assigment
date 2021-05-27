@@ -20,6 +20,13 @@ public class First{
         browserhistory.addLast(url);
 }
 
+public static void goBackInTime(int n) {
+    for(int in=0;in<n;in++){
+          browserhistory.removeLast();
+       }
+                     
+ }
+
     
 public static void main(String []args){
       Scanner scan = new Scanner(System.in);
