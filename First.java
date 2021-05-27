@@ -16,6 +16,9 @@ public class First{
         return browserhistory.getLast();
        
     }
+    public static void addSiteToHistory(String url) {
+        browserhistory.addLast(url);
+}
 
     
 public static void main(String []args){
